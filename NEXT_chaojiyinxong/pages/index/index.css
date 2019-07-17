@@ -1,0 +1,130 @@
+.banner{
+	width:750upx;
+	height:370upx;
+}
+.banner1{
+	width:100%;
+	height:100%;
+	max-width:750upx;
+}
+
+/* 火热项目 */
+.hot-title{
+	margin-top:15upx;
+}
+.hot-t{
+	display:flex;
+	flex-direction:row;
+}
+.hot-img{
+	width:30upx;
+	height:30upx;
+	margin-top:11upx;
+	margin-left:10upx;
+}
+.hot-p{
+	margin-left:10upx;
+	font-size:1em;
+	text-height:15upx;
+	
+}
+.hot{
+	width:100%;
+	white-space:nowrap;
+}
+.single-poster{
+	display:inline-block;
+	margin:15upx 0upx 10upx 10upx;
+}
+.poster-wapper{
+	display:flex;
+	flex-direction:column;
+}
+.poster-img{
+	width:200upx;
+	height:270upx;
+}
+.movie-name{
+	width:200upx;
+	margin-top:10upx;
+	font-size:14px;
+	font-weight:block;
+	/* 超出隐藏 */
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.poster-star{
+	display:flex;
+	flex-direction:	row;
+}
+.star-img{
+	width:20upx;
+	height:20upx;
+	margin-top:6upx;
+}
+.star-p{
+	font-size:12px;
+}
+/* 热门预告 */
+.hot-movies{
+	display:flex;
+	flex-direction:	row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding:0 20upx 20upx 20upx;
+}
+.hot-video{
+	width:350upx;
+	height:220upx;
+	margin-top:10upx;
+}
+/* 猜你喜欢 */
+.single-like-video{
+	display:flex;
+	felx-direction:row;
+	justify-content:space-between;
+	padding:20upx 20upx;
+	margin-bottom:15upx;
+}
+.hot-t{
+	pading-top:10upx;
+}
+.poster{
+	width:180upx;
+	height:270upx;
+	border-radius:10px;
+}
+.video-desc{
+	width:340upx;
+	display:flex;
+	flex-direction:	column;
+	font-size:14px;
+	color:#aaa;
+	text-height:20px;
+}
+.cai-title{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color:#444;
+}
+/* 点赞 */
+.video-oper{
+	width:140upx;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+	font-size:15px;
+	border-left: 1px dashed #aaa;
+}
+.oper-img{
+	width:60upx;
+	height:60upx;
+	align-self:center;
+}
+.oper-1{
+	font-weight:bold;
+	opacity:0;
+}

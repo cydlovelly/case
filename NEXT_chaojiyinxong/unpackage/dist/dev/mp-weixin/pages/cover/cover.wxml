@@ -1,0 +1,1 @@
+<view><view class="cover"><image class="cover-img" src="{{cover}}" mode="widthFix" data-event-opts="{{[['longtap',[['postd',['$event']]]]]}}" bindlongtap="__e"></image></view></view>

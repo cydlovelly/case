@@ -1,0 +1,21 @@
+
+.poster-star{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:	horizontal;
+	-webkit-box-direction:	normal;
+	-webkit-flex-direction:	row;
+	    -ms-flex-direction:	row;
+	        flex-direction:	row;
+}
+.star-img{
+	width:20rpx;
+	height:20rpx;
+	margin-top:6rpx;
+}
+.star-p{
+	font-size:12px;
+}
+

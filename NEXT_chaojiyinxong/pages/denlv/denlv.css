@@ -1,0 +1,63 @@
+.denlv{
+	width:100%;
+	height:100rem;
+	background: #fff;
+}
+.photo{
+	width: 100%;
+	height:350upx;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	/* align-content: center; */
+}
+.img{
+	width:180upx;
+	height:180upx;
+	margin-top:80upx;
+	border-radius: 100%;
+	background: #fff;
+}
+
+
+.zh,.mm{
+	width: 500upx;
+	height: 80upx;
+	padding:30upx 50upx 0upx 50upx;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+	/* placeholder-color:#ddd; */
+	color: #aaa;
+}
+/* .zh_input{
+	width:100%;
+	height:80upx;
+} */
+.line{
+	width: 100%;
+	height:1px;
+	padding:0 50upx;
+}
+.linea{
+	width:650upx;
+	height:1px;
+	background: #aaa;
+}
+
+.dl{
+	width: 100%;
+	height:100upx;
+	margin-top:180upx;
+	display: flex;
+	justify-content: center;
+}
+.dl_p{
+	width:400upx;
+	height:100upx;
+	border-radius: 8px;
+	background:#3a45ff;
+	color:#fff;
+	font: 400 18px/100upx "";
+	text-align: center;
+}

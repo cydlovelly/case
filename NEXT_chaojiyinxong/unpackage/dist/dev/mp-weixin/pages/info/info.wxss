@@ -1,0 +1,106 @@
+
+.poster-star{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:	horizontal;
+	-webkit-box-direction:	normal;
+	-webkit-flex-direction:	row;
+	    -ms-flex-direction:	row;
+	        flex-direction:	row;
+}
+.star-img{
+	width:20rpx;
+	height:20rpx;
+	margin-top:6rpx;
+}
+.star-p{
+	font-size:12px;
+}
+
+.info{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	/* margin-top:20upx; */
+	/* background:#fff; */
+	padidng:0 20rpx;
+}
+.info_img{
+	width:255rpx;
+	height:390rpx;
+	-webkit-border-radius:20px;
+	        border-radius:20px;
+	margin: 40rpx 0 40rpx 20rpx;
+}
+.info_p{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	width:400rpx;
+	margin: 40rpx 0 0 20rpx;
+	font: 400 13px/30px "";
+	color:#b8b8b8;
+	white-space:nowrap;
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+}
+.info_title{
+	font: 500 20px/30px "";
+	color:#333;
+}
+.l_p{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	width: 90%;
+	height:140rpx;
+	background:#fff;
+	-webkit-box-shadow:3px 2px 4px rgb(0,0,0,0.6);
+	        box-shadow:3px 2px 4px rgb(0,0,0,0.6);
+}
+.l_pf{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	width: 200rpx;
+	height:80rpx;
+	text-align:center;
+}
+.l_fenshu{
+	font: 550 25px/60rpx "";
+	color:#f53498;
+}
+.zong{
+	width:200rpx;
+	height:100%;
+	padding:50rpx 0 10rpx 10rpx;
+}
+

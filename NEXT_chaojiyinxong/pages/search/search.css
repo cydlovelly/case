@@ -1,0 +1,29 @@
+.search{
+	padding: 0 20upx 20upx 20upx;
+	display:flex;
+	flex-direction:row;
+	margin-top:15upx;
+}
+.test{
+	width:50upx;
+	height:50upx;
+	font: 400 14px/50upx "";
+	color:#8a8a8a;
+}
+#search_input{
+	width:350upx;
+	height: 50upx;
+	font: 400 14px/50upx "";
+	
+}
+.s_lu{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.s_li{
+	width: 210upx;
+	height: 270upx;
+	margin: 10upx 20upx;
+}

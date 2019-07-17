@@ -1,0 +1,211 @@
+
+.poster-star{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:	horizontal;
+	-webkit-box-direction:	normal;
+	-webkit-flex-direction:	row;
+	    -ms-flex-direction:	row;
+	        flex-direction:	row;
+}
+.star-img{
+	width:20rpx;
+	height:20rpx;
+	margin-top:6rpx;
+}
+.star-p{
+	font-size:12px;
+}
+
+.banner{
+	width:750rpx;
+	height:370rpx;
+}
+.banner1{
+	width:100%;
+	height:100%;
+	max-width:750rpx;
+}
+/* 火热项目 */
+.hot-title{
+	margin-top:15rpx;
+}
+.hot-t{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:row;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+}
+.hot-img{
+	width:30rpx;
+	height:30rpx;
+	margin-top:11rpx;
+	margin-left:10rpx;
+}
+.hot-p{
+	margin-left:10rpx;
+	font-size:1em;
+	text-height:15rpx;
+}
+.hot{
+	width:100%;
+	white-space:nowrap;
+}
+.single-poster{
+	display:inline-block;
+	margin:15rpx 0rpx 10rpx 10rpx;
+}
+.poster-wapper{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+}
+.poster-img{
+	width:200rpx;
+	height:270rpx;
+}
+.movie-name{
+	width:200rpx;
+	margin-top:10rpx;
+	font-size:14px;
+	font-weight:block;
+	/* 超出隐藏 */
+	white-space:nowrap;
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+}
+.poster-star{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:	horizontal;
+	-webkit-box-direction:	normal;
+	-webkit-flex-direction:	row;
+	    -ms-flex-direction:	row;
+	        flex-direction:	row;
+}
+.star-img{
+	width:20rpx;
+	height:20rpx;
+	margin-top:6rpx;
+}
+.star-p{
+	font-size:12px;
+}
+/* 热门预告 */
+.hot-movies{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:	horizontal;
+	-webkit-box-direction:	normal;
+	-webkit-flex-direction:	row;
+	    -ms-flex-direction:	row;
+	        flex-direction:	row;
+	-webkit-flex-wrap:wrap;
+	    -ms-flex-wrap:wrap;
+	        flex-wrap:wrap;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+	padding:0 20rpx 20rpx 20rpx;
+}
+.hot-video{
+	width:350rpx;
+	height:220rpx;
+	margin-top:10rpx;
+}
+/* 猜你喜欢 */
+.single-like-video{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	felx-direction:row;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+	padding:20rpx 20rpx;
+	margin-bottom:15rpx;
+}
+.hot-t{
+	pading-top:10rpx;
+}
+.poster{
+	width:180rpx;
+	height:270rpx;
+	-webkit-border-radius:10px;
+	        border-radius:10px;
+}
+.video-desc{
+	width:340rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:	vertical;
+	-webkit-box-direction:	normal;
+	-webkit-flex-direction:	column;
+	    -ms-flex-direction:	column;
+	        flex-direction:	column;
+	font-size:14px;
+	color:#aaa;
+	text-height:20px;
+}
+.cai-title{
+	white-space:nowrap;
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	color:#444;
+}
+/* 点赞 */
+.video-oper{
+	width:140rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	text-align:center;
+	font-size:15px;
+	border-left: 1px dashed #aaa;
+}
+.oper-img{
+	width:60rpx;
+	height:60rpx;
+	-webkit-align-self:center;
+	    -ms-flex-item-align:center;
+	        align-self:center;
+}
+.oper-1{
+	font-weight:bold;
+	opacity:0;
+}
+

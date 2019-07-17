@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "grade": "/components/grade"
+  }
+}
